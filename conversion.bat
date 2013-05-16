@@ -1,1 +1,5 @@
-java -Xmx512m -cp "C:\MYCAT\dist\SimpleConverter.jar" org.olanto.converter.SimpleConverterApplicationTest -f txt -b C:/MYCAT/corpus/bad C:/MYCAT/corpus/docs C:/MYCAT/corpus/source
+@echo on
+
+java -Xmx512m -jar "C:\MYCAT\prog\SimpleConverter\dist\SimpleConverter.jar" "C:\MYCAT\config\CONV_fix.xml"
+
+@echo on
